@@ -1,0 +1,31 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.calculator{
+    background-color: #444;
+    padding: 20px;
+    width: 400px;
+    text-align: center;
+}
+input{
+    width: 60px;
+    height: 60px;
+    border-radius: 10;
+    border: none;
+    padding: 0px 20px;
+    margin: 10px;
+    background: transparent;
+    color: #fff;
+    font-size: 18px;
+    outline: none;
+    box-shadow: 20px 0px 15px -3px rgba(0,0,0,0.1);
+
+}
+.display-input{
+    width: 80%;
+    margin-bottom: 20px;
+    cursor: auto;
+}
